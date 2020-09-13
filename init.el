@@ -75,7 +75,7 @@
           ("C-p" . company-select-previous)))
   :custom ((company-transformers . '(company-sort-by-backend-importance))
            (company-idle-delay . 0)
-           (company-minimum-prefix-length . 3)p
+           (company-minimum-prefix-length . 3)
            (company-selection-wrap-around . t) 
            (completion-ignore-case . t)
            (company-dabbrev-downcase . nil))
